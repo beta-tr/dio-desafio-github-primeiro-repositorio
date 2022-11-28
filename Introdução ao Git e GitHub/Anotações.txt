@@ -1,0 +1,20 @@
+Passos para o primeiro commit:
+
+→ git init (cria a pasta .git e inicializa um repositório)
+→ git add
+→ git commit -m (mensagem)
+→ git remote add origin URL
+→ git push origin master
+→ git push --up --upstream --force origin master
+
+
+→ O Git tem três estados principais que seus arquivos podem estar: committed, modificado (modified) e preparado (staged). Committed significa que os dados estão armazenados de forma segura em seu banco de dados local. Modificado significa que você alterou o arquivo, mas ainda não fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit. 
+
+Ciclo de vida dos status dos Arquivos:
+      
+    • Untracked: momento em que o arquivo acabou de ser adicionado no repositório, mas ainda não foi visto pelo Git;
+    • Unmodified: não foi modificado. Ele existe, mas não teve modificação;
+    • Modified: se eu editar o arquivo, ele fica como modificado;
+    • Staged: área onde será criada a versão.
+
+
